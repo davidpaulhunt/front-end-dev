@@ -1,0 +1,59 @@
+$orange: #FF7800;
+$dark: #202020;
+$gray: #333333;
+$light: #AAAAAA;
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  padding-top: 70px;
+  font-family: "Din", "din", sans-serif;
+  background-color: $dark;
+  color: white;
+  font-size: 14px;
+  line-height: 1.428571429;
+}
+
+.splash {
+  position: relative;
+}
+
+.bump {
+  margin-top: .5em;
+}
+
+button.btn.btn-lg {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  background-color: $orange;
+  border-radius: 0;
+  color: $dark;
+  line-height: 2;
+  font-weight: bold;
+}
+
+div.bar {
+  overflow: hidden;
+  background-color: $gray;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+div.title h4, span.number {
+  color: $orange;
+}
+p, .light-gray {
+  color: $light;
+  font-weight: lighter;
+}
+span.white-p {
+  color: white;
+  font-weight: lighter;
+}
+
+@media (max-width: 464px) {
+  .sidenav {
+    padding-top: 1.5em;
+  }
+}
